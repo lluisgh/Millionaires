@@ -7,155 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F118ECB16779B4E0032C4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F118ECA16779B4E0032C4A7 /* UIKit.framework */; };
-		2F118ECD16779B4E0032C4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F118ECC16779B4E0032C4A7 /* Foundation.framework */; };
-		2F118ECF16779B4E0032C4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F118ECE16779B4E0032C4A7 /* CoreGraphics.framework */; };
-		2F118ED516779B4E0032C4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F118ED316779B4E0032C4A7 /* InfoPlist.strings */; };
-		2F118ED716779B4E0032C4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F118ED616779B4E0032C4A7 /* main.m */; };
-		2F118EDB16779B4E0032C4A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F118EDA16779B4E0032C4A7 /* AppDelegate.m */; };
-		2F118EDD16779B4E0032C4A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F118EDC16779B4E0032C4A7 /* Default.png */; };
-		2F118EDF16779B4E0032C4A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F118EDE16779B4E0032C4A7 /* Default@2x.png */; };
-		2F118EE116779B4E0032C4A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F118EE016779B4E0032C4A7 /* Default-568h@2x.png */; };
-		2F118EE416779B4E0032C4A7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F118EE216779B4E0032C4A7 /* MainStoryboard.storyboard */; };
-		2F118EE716779B4E0032C4A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F118EE616779B4E0032C4A7 /* ViewController.m */; };
-		2F118EEF16779B4E0032C4A7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F118EEE16779B4E0032C4A7 /* SenTestingKit.framework */; };
-		2F118EF016779B4E0032C4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F118ECA16779B4E0032C4A7 /* UIKit.framework */; };
-		2F118EF116779B4E0032C4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F118ECC16779B4E0032C4A7 /* Foundation.framework */; };
-		2F118EF916779B4E0032C4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F118EF716779B4E0032C4A7 /* InfoPlist.strings */; };
-		2F118EFC16779B4E0032C4A7 /* MillionairesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F118EFB16779B4E0032C4A7 /* MillionairesTests.m */; };
+		2FC33C641678CE4200C3BD78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC33C631678CE4200C3BD78 /* UIKit.framework */; };
+		2FC33C661678CE4200C3BD78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC33C651678CE4200C3BD78 /* Foundation.framework */; };
+		2FC33C681678CE4200C3BD78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC33C671678CE4200C3BD78 /* CoreGraphics.framework */; };
+		2FC33C6E1678CE4200C3BD78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FC33C6C1678CE4200C3BD78 /* InfoPlist.strings */; };
+		2FC33C701678CE4200C3BD78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC33C6F1678CE4200C3BD78 /* main.m */; };
+		2FC33C741678CE4200C3BD78 /* MillionairesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC33C731678CE4200C3BD78 /* MillionairesAppDelegate.m */; };
+		2FC33C761678CE4200C3BD78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC33C751678CE4200C3BD78 /* Default.png */; };
+		2FC33C781678CE4200C3BD78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC33C771678CE4200C3BD78 /* Default@2x.png */; };
+		2FC33C7A1678CE4200C3BD78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC33C791678CE4200C3BD78 /* Default-568h@2x.png */; };
+		2FC33C7D1678CE4200C3BD78 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC33C7B1678CE4200C3BD78 /* MainStoryboard.storyboard */; };
+		2FC33C801678CE4200C3BD78 /* MillionairesMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC33C7F1678CE4200C3BD78 /* MillionairesMasterViewController.m */; };
+		2FC33C831678CE4200C3BD78 /* MillionairesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC33C821678CE4200C3BD78 /* MillionairesDetailViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2F118EF216779B4E0032C4A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F118EBD16779B4E0032C4A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F118EC516779B4E0032C4A7;
-			remoteInfo = Millionaires;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2F118EC616779B4E0032C4A7 /* Millionaires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millionaires.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F118ECA16779B4E0032C4A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2F118ECC16779B4E0032C4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2F118ECE16779B4E0032C4A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F118ED216779B4E0032C4A7 /* Millionaires-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Millionaires-Info.plist"; sourceTree = "<group>"; };
-		2F118ED416779B4E0032C4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F118ED616779B4E0032C4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F118ED816779B4E0032C4A7 /* Millionaires-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Millionaires-Prefix.pch"; sourceTree = "<group>"; };
-		2F118ED916779B4E0032C4A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2F118EDA16779B4E0032C4A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F118EDC16779B4E0032C4A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2F118EDE16779B4E0032C4A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2F118EE016779B4E0032C4A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2F118EE316779B4E0032C4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2F118EE516779B4E0032C4A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F118EE616779B4E0032C4A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2F118EED16779B4E0032C4A7 /* MillionairesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionairesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F118EEE16779B4E0032C4A7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2F118EF616779B4E0032C4A7 /* MillionairesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MillionairesTests-Info.plist"; sourceTree = "<group>"; };
-		2F118EF816779B4E0032C4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F118EFA16779B4E0032C4A7 /* MillionairesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MillionairesTests.h; sourceTree = "<group>"; };
-		2F118EFB16779B4E0032C4A7 /* MillionairesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MillionairesTests.m; sourceTree = "<group>"; };
+		2FC33C5F1678CE4200C3BD78 /* Millionaires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millionaires.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC33C631678CE4200C3BD78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FC33C651678CE4200C3BD78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FC33C671678CE4200C3BD78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FC33C6B1678CE4200C3BD78 /* Millionaires-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Millionaires-Info.plist"; sourceTree = "<group>"; };
+		2FC33C6D1678CE4200C3BD78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FC33C6F1678CE4200C3BD78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FC33C711678CE4200C3BD78 /* Millionaires-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Millionaires-Prefix.pch"; sourceTree = "<group>"; };
+		2FC33C721678CE4200C3BD78 /* MillionairesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MillionairesAppDelegate.h; sourceTree = "<group>"; };
+		2FC33C731678CE4200C3BD78 /* MillionairesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MillionairesAppDelegate.m; sourceTree = "<group>"; };
+		2FC33C751678CE4200C3BD78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2FC33C771678CE4200C3BD78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2FC33C791678CE4200C3BD78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2FC33C7C1678CE4200C3BD78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2FC33C7E1678CE4200C3BD78 /* MillionairesMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MillionairesMasterViewController.h; sourceTree = "<group>"; };
+		2FC33C7F1678CE4200C3BD78 /* MillionairesMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MillionairesMasterViewController.m; sourceTree = "<group>"; };
+		2FC33C811678CE4200C3BD78 /* MillionairesDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MillionairesDetailViewController.h; sourceTree = "<group>"; };
+		2FC33C821678CE4200C3BD78 /* MillionairesDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MillionairesDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F118EC316779B4E0032C4A7 /* Frameworks */ = {
+		2FC33C5C1678CE4200C3BD78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F118ECB16779B4E0032C4A7 /* UIKit.framework in Frameworks */,
-				2F118ECD16779B4E0032C4A7 /* Foundation.framework in Frameworks */,
-				2F118ECF16779B4E0032C4A7 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F118EE916779B4E0032C4A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F118EEF16779B4E0032C4A7 /* SenTestingKit.framework in Frameworks */,
-				2F118EF016779B4E0032C4A7 /* UIKit.framework in Frameworks */,
-				2F118EF116779B4E0032C4A7 /* Foundation.framework in Frameworks */,
+				2FC33C641678CE4200C3BD78 /* UIKit.framework in Frameworks */,
+				2FC33C661678CE4200C3BD78 /* Foundation.framework in Frameworks */,
+				2FC33C681678CE4200C3BD78 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F118EBB16779B4E0032C4A7 = {
+		2FC33C541678CE4200C3BD78 = {
 			isa = PBXGroup;
 			children = (
-				2F118ED016779B4E0032C4A7 /* Millionaires */,
-				2F118EF416779B4E0032C4A7 /* MillionairesTests */,
-				2F118EC916779B4E0032C4A7 /* Frameworks */,
-				2F118EC716779B4E0032C4A7 /* Products */,
+				2FC33C691678CE4200C3BD78 /* Millionaires */,
+				2FC33C621678CE4200C3BD78 /* Frameworks */,
+				2FC33C601678CE4200C3BD78 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2F118EC716779B4E0032C4A7 /* Products */ = {
+		2FC33C601678CE4200C3BD78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F118EC616779B4E0032C4A7 /* Millionaires.app */,
-				2F118EED16779B4E0032C4A7 /* MillionairesTests.octest */,
+				2FC33C5F1678CE4200C3BD78 /* Millionaires.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F118EC916779B4E0032C4A7 /* Frameworks */ = {
+		2FC33C621678CE4200C3BD78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F118ECA16779B4E0032C4A7 /* UIKit.framework */,
-				2F118ECC16779B4E0032C4A7 /* Foundation.framework */,
-				2F118ECE16779B4E0032C4A7 /* CoreGraphics.framework */,
-				2F118EEE16779B4E0032C4A7 /* SenTestingKit.framework */,
+				2FC33C631678CE4200C3BD78 /* UIKit.framework */,
+				2FC33C651678CE4200C3BD78 /* Foundation.framework */,
+				2FC33C671678CE4200C3BD78 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2F118ED016779B4E0032C4A7 /* Millionaires */ = {
+		2FC33C691678CE4200C3BD78 /* Millionaires */ = {
 			isa = PBXGroup;
 			children = (
-				2F118ED916779B4E0032C4A7 /* AppDelegate.h */,
-				2F118EDA16779B4E0032C4A7 /* AppDelegate.m */,
-				2F118EE216779B4E0032C4A7 /* MainStoryboard.storyboard */,
-				2F118EE516779B4E0032C4A7 /* ViewController.h */,
-				2F118EE616779B4E0032C4A7 /* ViewController.m */,
-				2F118ED116779B4E0032C4A7 /* Supporting Files */,
+				2FC33C721678CE4200C3BD78 /* MillionairesAppDelegate.h */,
+				2FC33C731678CE4200C3BD78 /* MillionairesAppDelegate.m */,
+				2FC33C7B1678CE4200C3BD78 /* MainStoryboard.storyboard */,
+				2FC33C7E1678CE4200C3BD78 /* MillionairesMasterViewController.h */,
+				2FC33C7F1678CE4200C3BD78 /* MillionairesMasterViewController.m */,
+				2FC33C811678CE4200C3BD78 /* MillionairesDetailViewController.h */,
+				2FC33C821678CE4200C3BD78 /* MillionairesDetailViewController.m */,
+				2FC33C6A1678CE4200C3BD78 /* Supporting Files */,
 			);
 			path = Millionaires;
 			sourceTree = "<group>";
 		};
-		2F118ED116779B4E0032C4A7 /* Supporting Files */ = {
+		2FC33C6A1678CE4200C3BD78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F118ED216779B4E0032C4A7 /* Millionaires-Info.plist */,
-				2F118ED316779B4E0032C4A7 /* InfoPlist.strings */,
-				2F118ED616779B4E0032C4A7 /* main.m */,
-				2F118ED816779B4E0032C4A7 /* Millionaires-Prefix.pch */,
-				2F118EDC16779B4E0032C4A7 /* Default.png */,
-				2F118EDE16779B4E0032C4A7 /* Default@2x.png */,
-				2F118EE016779B4E0032C4A7 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2F118EF416779B4E0032C4A7 /* MillionairesTests */ = {
-			isa = PBXGroup;
-			children = (
-				2F118EFA16779B4E0032C4A7 /* MillionairesTests.h */,
-				2F118EFB16779B4E0032C4A7 /* MillionairesTests.m */,
-				2F118EF516779B4E0032C4A7 /* Supporting Files */,
-			);
-			path = MillionairesTests;
-			sourceTree = "<group>";
-		};
-		2F118EF516779B4E0032C4A7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2F118EF616779B4E0032C4A7 /* MillionairesTests-Info.plist */,
-				2F118EF716779B4E0032C4A7 /* InfoPlist.strings */,
+				2FC33C6B1678CE4200C3BD78 /* Millionaires-Info.plist */,
+				2FC33C6C1678CE4200C3BD78 /* InfoPlist.strings */,
+				2FC33C6F1678CE4200C3BD78 /* main.m */,
+				2FC33C711678CE4200C3BD78 /* Millionaires-Prefix.pch */,
+				2FC33C751678CE4200C3BD78 /* Default.png */,
+				2FC33C771678CE4200C3BD78 /* Default@2x.png */,
+				2FC33C791678CE4200C3BD78 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F118EC516779B4E0032C4A7 /* Millionaires */ = {
+		2FC33C5E1678CE4200C3BD78 /* Millionaires */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F118EFF16779B4E0032C4A7 /* Build configuration list for PBXNativeTarget "Millionaires" */;
+			buildConfigurationList = 2FC33C861678CE4200C3BD78 /* Build configuration list for PBXNativeTarget "Millionaires" */;
 			buildPhases = (
-				2F118EC216779B4E0032C4A7 /* Sources */,
-				2F118EC316779B4E0032C4A7 /* Frameworks */,
-				2F118EC416779B4E0032C4A7 /* Resources */,
+				2FC33C5B1678CE4200C3BD78 /* Sources */,
+				2FC33C5C1678CE4200C3BD78 /* Frameworks */,
+				2FC33C5D1678CE4200C3BD78 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -177,152 +129,86 @@
 			);
 			name = Millionaires;
 			productName = Millionaires;
-			productReference = 2F118EC616779B4E0032C4A7 /* Millionaires.app */;
+			productReference = 2FC33C5F1678CE4200C3BD78 /* Millionaires.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2F118EEC16779B4E0032C4A7 /* MillionairesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F118F0216779B4E0032C4A7 /* Build configuration list for PBXNativeTarget "MillionairesTests" */;
-			buildPhases = (
-				2F118EE816779B4E0032C4A7 /* Sources */,
-				2F118EE916779B4E0032C4A7 /* Frameworks */,
-				2F118EEA16779B4E0032C4A7 /* Resources */,
-				2F118EEB16779B4E0032C4A7 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2F118EF316779B4E0032C4A7 /* PBXTargetDependency */,
-			);
-			name = MillionairesTests;
-			productName = MillionairesTests;
-			productReference = 2F118EED16779B4E0032C4A7 /* MillionairesTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F118EBD16779B4E0032C4A7 /* Project object */ = {
+		2FC33C561678CE4200C3BD78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Millionaires;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Lluís Gómez Hernando";
 			};
-			buildConfigurationList = 2F118EC016779B4E0032C4A7 /* Build configuration list for PBXProject "Millionaires" */;
+			buildConfigurationList = 2FC33C591678CE4200C3BD78 /* Build configuration list for PBXProject "Millionaires" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2F118EBB16779B4E0032C4A7;
-			productRefGroup = 2F118EC716779B4E0032C4A7 /* Products */;
+			mainGroup = 2FC33C541678CE4200C3BD78;
+			productRefGroup = 2FC33C601678CE4200C3BD78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F118EC516779B4E0032C4A7 /* Millionaires */,
-				2F118EEC16779B4E0032C4A7 /* MillionairesTests */,
+				2FC33C5E1678CE4200C3BD78 /* Millionaires */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F118EC416779B4E0032C4A7 /* Resources */ = {
+		2FC33C5D1678CE4200C3BD78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F118ED516779B4E0032C4A7 /* InfoPlist.strings in Resources */,
-				2F118EDD16779B4E0032C4A7 /* Default.png in Resources */,
-				2F118EDF16779B4E0032C4A7 /* Default@2x.png in Resources */,
-				2F118EE116779B4E0032C4A7 /* Default-568h@2x.png in Resources */,
-				2F118EE416779B4E0032C4A7 /* MainStoryboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F118EEA16779B4E0032C4A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F118EF916779B4E0032C4A7 /* InfoPlist.strings in Resources */,
+				2FC33C6E1678CE4200C3BD78 /* InfoPlist.strings in Resources */,
+				2FC33C761678CE4200C3BD78 /* Default.png in Resources */,
+				2FC33C781678CE4200C3BD78 /* Default@2x.png in Resources */,
+				2FC33C7A1678CE4200C3BD78 /* Default-568h@2x.png in Resources */,
+				2FC33C7D1678CE4200C3BD78 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2F118EEB16779B4E0032C4A7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2F118EC216779B4E0032C4A7 /* Sources */ = {
+		2FC33C5B1678CE4200C3BD78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F118ED716779B4E0032C4A7 /* main.m in Sources */,
-				2F118EDB16779B4E0032C4A7 /* AppDelegate.m in Sources */,
-				2F118EE716779B4E0032C4A7 /* ViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F118EE816779B4E0032C4A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F118EFC16779B4E0032C4A7 /* MillionairesTests.m in Sources */,
+				2FC33C701678CE4200C3BD78 /* main.m in Sources */,
+				2FC33C741678CE4200C3BD78 /* MillionairesAppDelegate.m in Sources */,
+				2FC33C801678CE4200C3BD78 /* MillionairesMasterViewController.m in Sources */,
+				2FC33C831678CE4200C3BD78 /* MillionairesDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2F118EF316779B4E0032C4A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2F118EC516779B4E0032C4A7 /* Millionaires */;
-			targetProxy = 2F118EF216779B4E0032C4A7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		2F118ED316779B4E0032C4A7 /* InfoPlist.strings */ = {
+		2FC33C6C1678CE4200C3BD78 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F118ED416779B4E0032C4A7 /* en */,
+				2FC33C6D1678CE4200C3BD78 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2F118EE216779B4E0032C4A7 /* MainStoryboard.storyboard */ = {
+		2FC33C7B1678CE4200C3BD78 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F118EE316779B4E0032C4A7 /* en */,
+				2FC33C7C1678CE4200C3BD78 /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		2F118EF716779B4E0032C4A7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F118EF816779B4E0032C4A7 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2F118EFD16779B4E0032C4A7 /* Debug */ = {
+		2FC33C841678CE4200C3BD78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		2F118EFE16779B4E0032C4A7 /* Release */ = {
+		2FC33C851678CE4200C3BD78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +258,7 @@
 			};
 			name = Release;
 		};
-		2F118F0016779B4E0032C4A7 /* Debug */ = {
+		2FC33C871678CE4200C3BD78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -383,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		2F118F0116779B4E0032C4A7 /* Release */ = {
+		2FC33C881678CE4200C3BD78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -391,72 +277,30 @@
 				INFOPLIST_FILE = "Millionaires/Millionaires-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		2F118F0316779B4E0032C4A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Millionaires.app/Millionaires";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Millionaires/Millionaires-Prefix.pch";
-				INFOPLIST_FILE = "MillionairesTests/MillionairesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		2F118F0416779B4E0032C4A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Millionaires.app/Millionaires";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Millionaires/Millionaires-Prefix.pch";
-				INFOPLIST_FILE = "MillionairesTests/MillionairesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F118EC016779B4E0032C4A7 /* Build configuration list for PBXProject "Millionaires" */ = {
+		2FC33C591678CE4200C3BD78 /* Build configuration list for PBXProject "Millionaires" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F118EFD16779B4E0032C4A7 /* Debug */,
-				2F118EFE16779B4E0032C4A7 /* Release */,
+				2FC33C841678CE4200C3BD78 /* Debug */,
+				2FC33C851678CE4200C3BD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F118EFF16779B4E0032C4A7 /* Build configuration list for PBXNativeTarget "Millionaires" */ = {
+		2FC33C861678CE4200C3BD78 /* Build configuration list for PBXNativeTarget "Millionaires" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F118F0016779B4E0032C4A7 /* Debug */,
-				2F118F0116779B4E0032C4A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2F118F0216779B4E0032C4A7 /* Build configuration list for PBXNativeTarget "MillionairesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F118F0316779B4E0032C4A7 /* Debug */,
-				2F118F0416779B4E0032C4A7 /* Release */,
+				2FC33C871678CE4200C3BD78 /* Debug */,
+				2FC33C881678CE4200C3BD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2F118EBD16779B4E0032C4A7 /* Project object */;
+	rootObject = 2FC33C561678CE4200C3BD78 /* Project object */;
 }
