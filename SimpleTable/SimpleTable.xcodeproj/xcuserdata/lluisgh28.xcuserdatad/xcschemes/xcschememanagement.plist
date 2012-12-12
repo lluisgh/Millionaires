@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Millionaires.xcscheme</key>
+		<key>SimpleTable.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2FC33C5E1678CE4200C3BD78</key>
+		<key>2FC33C2C1678CB0700C3BD78</key>
 		<dict>
 			<key>primary</key>
 			<true/>

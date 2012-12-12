@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FC33C5E1678CE4200C3BD78"
-               BuildableName = "Millionaires.app"
-               BlueprintName = "Millionaires"
-               ReferencedContainer = "container:Millionaires.xcodeproj">
+               BlueprintIdentifier = "2FC33C2C1678CB0700C3BD78"
+               BuildableName = "SimpleTable.app"
+               BlueprintName = "SimpleTable"
+               ReferencedContainer = "container:SimpleTable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FC33C5E1678CE4200C3BD78"
-            BuildableName = "Millionaires.app"
-            BlueprintName = "Millionaires"
-            ReferencedContainer = "container:Millionaires.xcodeproj">
+            BlueprintIdentifier = "2FC33C2C1678CB0700C3BD78"
+            BuildableName = "SimpleTable.app"
+            BlueprintName = "SimpleTable"
+            ReferencedContainer = "container:SimpleTable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FC33C5E1678CE4200C3BD78"
-            BuildableName = "Millionaires.app"
-            BlueprintName = "Millionaires"
-            ReferencedContainer = "container:Millionaires.xcodeproj">
+            BlueprintIdentifier = "2FC33C2C1678CB0700C3BD78"
+            BuildableName = "SimpleTable.app"
+            BlueprintName = "SimpleTable"
+            ReferencedContainer = "container:SimpleTable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FC33C5E1678CE4200C3BD78"
-            BuildableName = "Millionaires.app"
-            BlueprintName = "Millionaires"
-            ReferencedContainer = "container:Millionaires.xcodeproj">
+            BlueprintIdentifier = "2FC33C2C1678CB0700C3BD78"
+            BuildableName = "SimpleTable.app"
+            BlueprintName = "SimpleTable"
+            ReferencedContainer = "container:SimpleTable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

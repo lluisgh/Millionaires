@@ -1,14 +1,14 @@
 //
-//  AppDelegate.m
+//  MillionairesAppDelegate.m
 //  Millionaires
 //
-//  Created by Lluís Gómez Hernando on 11/12/12.
+//  Created by Lluís Gómez Hernando on 12/12/12.
 //  Copyright (c) 2012 Lluís Gómez Hernando. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "MillionairesAppDelegate.h"
 
-@implementation AppDelegate
+@implementation MillionairesAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
