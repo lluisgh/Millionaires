@@ -11,7 +11,6 @@
 
 @interface MillionairesDetailViewController : UITableViewController
 
-//@property (weak, nonatomic) IBOutlet UINavigationItem *navigationHeader;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *rankLabel;
 @property (weak, nonatomic) IBOutlet UITableViewCell *networthCell;

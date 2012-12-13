@@ -67,7 +67,7 @@
         <scene sceneID="sXD-ey-vTF">
             <objects>
                 <tableViewController id="fgC-hh-QeJ" customClass="MillionairesDetailViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ANd-3T-lb7">
+                    <tableView key="view" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ANd-3T-lb7">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -165,12 +165,10 @@
                         <outlet property="ageCell" destination="LfT-ss-4Cv" id="Wbm-Bz-BOb"/>
                         <outlet property="countryCell" destination="0xh-x1-bCv" id="PK7-KV-X04"/>
                         <outlet property="nameLabel" destination="9nl-vV-Kh2" id="kMu-zR-3vP"/>
-                        <outlet property="navigationHeader" destination="YuN-qD-hwv" id="e3k-2H-IVE"/>
                         <outlet property="navigationItem" destination="YuN-qD-hwv" id="5nM-Jk-5ZM"/>
                         <outlet property="networthCell" destination="80S-cC-rRR" id="f8y-DD-0dZ"/>
                         <outlet property="rankLabel" destination="arJ-AM-4Z4" id="BFS-6U-dXc"/>
                         <outlet property="sourceCell" destination="LfT-ss-4Cv" id="vTT-z0-dW0"/>
-                        <outlet property="viewName" destination="YuN-qD-hwv" id="1gX-hF-h5F"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WBL-TV-x3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -185,7 +183,6 @@
                 <relationship kind="outlet" name="ageCell" candidateClass="UITableViewCell"/>
                 <relationship kind="outlet" name="countryCell" candidateClass="UITableViewCell"/>
                 <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="navigationItem" candidateClass="UINavigationItem"/>
                 <relationship kind="outlet" name="networthCell" candidateClass="UITableViewCell"/>
                 <relationship kind="outlet" name="rankLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="sourceCell" candidateClass="UITableViewCell"/>

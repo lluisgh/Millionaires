@@ -30,9 +30,7 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-    
     if (self.millionaire) {
-        //self.navigationItem.title = self.nameLabel.text = self.millionaire.name;
         self.rankLabel.text = self.millionaire.rank.stringValue;
         self.networthCell.textLabel.text = self.millionaire.networth;
         self.sourceCell.textLabel.text = self.millionaire.source;

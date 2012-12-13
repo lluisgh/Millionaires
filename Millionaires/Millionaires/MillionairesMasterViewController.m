@@ -87,9 +87,11 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
+        NSLog(@"I AM HERE");
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         Millionaire *millionaire = [self parseToMillionaire: millionaires[indexPath.row]];
         [[segue destinationViewController] setMillionaire: millionaire];
+
     }
 }
 
