@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Millionaire.h"
 
 @interface MillionairesDetailViewController : UITableViewController
 
-@property (strong, nonatomic) id detailItem;
+//@property (weak, nonatomic) IBOutlet UINavigationItem *navigationHeader;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *rankLabel;
+@property (weak, nonatomic) IBOutlet UITableViewCell *networthCell;
+@property (weak, nonatomic) IBOutlet UITableViewCell *sourceCell;
+@property (weak, nonatomic) IBOutlet UITableViewCell *ageCell;
+@property (weak, nonatomic) IBOutlet UITableViewCell *countryCell;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) Millionaire *millionaire;
+
 @end

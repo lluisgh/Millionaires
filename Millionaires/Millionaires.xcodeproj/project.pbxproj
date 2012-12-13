@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0B77B8167A651900BDE59D /* Millionaire.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0B77B7167A651900BDE59D /* Millionaire.m */; };
 		2FC33C641678CE4200C3BD78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC33C631678CE4200C3BD78 /* UIKit.framework */; };
 		2FC33C661678CE4200C3BD78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC33C651678CE4200C3BD78 /* Foundation.framework */; };
 		2FC33C681678CE4200C3BD78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC33C671678CE4200C3BD78 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F0B77B6167A651900BDE59D /* Millionaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Millionaire.h; sourceTree = "<group>"; };
+		2F0B77B7167A651900BDE59D /* Millionaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Millionaire.m; sourceTree = "<group>"; };
 		2FC33C5F1678CE4200C3BD78 /* Millionaires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millionaires.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC33C631678CE4200C3BD78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2FC33C651678CE4200C3BD78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,8 @@
 				2FC33C7F1678CE4200C3BD78 /* MillionairesMasterViewController.m */,
 				2FC33C811678CE4200C3BD78 /* MillionairesDetailViewController.h */,
 				2FC33C821678CE4200C3BD78 /* MillionairesDetailViewController.m */,
+				2F0B77B6167A651900BDE59D /* Millionaire.h */,
+				2F0B77B7167A651900BDE59D /* Millionaire.m */,
 				2FC33C6A1678CE4200C3BD78 /* Supporting Files */,
 			);
 			path = Millionaires;
@@ -183,6 +188,7 @@
 				2FC33C741678CE4200C3BD78 /* MillionairesAppDelegate.m in Sources */,
 				2FC33C801678CE4200C3BD78 /* MillionairesMasterViewController.m in Sources */,
 				2FC33C831678CE4200C3BD78 /* MillionairesDetailViewController.m in Sources */,
+				2F0B77B8167A651900BDE59D /* Millionaire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				2FC33C881678CE4200C3BD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -70,13 +70,26 @@
     return cell;
 }
 
+- (Millionaire*)parseToMillionaire: (NSDictionary*)dictionary
+{
+    Millionaire *millionaire = [Millionaire new];
+    
+    millionaire.name = [dictionary objectForKey:@"name"];
+    millionaire.age = [dictionary objectForKey:@"age"];
+    millionaire.imageURL = [dictionary objectForKey:@"image"];
+    millionaire.networth = [dictionary objectForKey:@"networth"];
+    millionaire.rank = [dictionary objectForKey:@"rank"];
+    millionaire.source = [dictionary objectForKey:@"source"];
+    
+    return millionaire;
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDictionary *millionaire = millionaires[indexPath.row];
-        [[segue destinationViewController] setDetailItem:millionaire];
+        Millionaire *millionaire = [self parseToMillionaire: millionaires[indexPath.row]];
+        [[segue destinationViewController] setMillionaire: millionaire];
     }
 }
 

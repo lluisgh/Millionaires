@@ -10,17 +10,18 @@
 
 @interface MillionairesDetailViewController ()
 - (void)configureView;
+
 @end
 
 @implementation MillionairesDetailViewController
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setMillionaire:(id)newMillionaire
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
-        
+    if (_millionaire != newMillionaire) {
+        _millionaire = newMillionaire;
+
         // Update the view.
         [self configureView];
     }
@@ -29,9 +30,14 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    
+    if (self.millionaire) {
+        //self.navigationItem.title = self.nameLabel.text = self.millionaire.name;
+        self.rankLabel.text = self.millionaire.rank.stringValue;
+        self.networthCell.textLabel.text = self.millionaire.networth;
+        self.sourceCell.textLabel.text = self.millionaire.source;
+        self.ageCell.textLabel.text = self.millionaire.age.stringValue;
+        self.countryCell.textLabel.text = self.millionaire.country;        
     }
 }
 

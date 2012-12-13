@@ -84,8 +84,9 @@
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nl-vV-Kh2" userLabel="Name Label">
                                     <constraints>
                                         <constraint firstAttribute="width" constant="207" id="Jdn-oJ-ECW"/>
+                                        <constraint firstAttribute="height" constant="21" id="SME-if-3TW"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -115,7 +116,7 @@
                         <sections>
                             <tableViewSection id="GVk-Sq-jSt">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="80S-cC-rRR">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="80S-cC-rRR" userLabel="Networth Cell">
                                         <rect key="frame" x="0.0" y="115" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -124,7 +125,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bnM-ut-2qs">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bnM-ut-2qs" userLabel="Source Cell">
                                         <rect key="frame" x="0.0" y="160" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -133,7 +134,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="LfT-ss-4Cv">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="LfT-ss-4Cv" userLabel="Age Cell">
                                         <rect key="frame" x="0.0" y="204" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -142,7 +143,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="0xh-x1-bCv">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="0xh-x1-bCv" userLabel="Country Cell">
                                         <rect key="frame" x="0.0" y="248" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -160,6 +161,17 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="YuN-qD-hwv"/>
+                    <connections>
+                        <outlet property="ageCell" destination="LfT-ss-4Cv" id="Wbm-Bz-BOb"/>
+                        <outlet property="countryCell" destination="0xh-x1-bCv" id="PK7-KV-X04"/>
+                        <outlet property="nameLabel" destination="9nl-vV-Kh2" id="kMu-zR-3vP"/>
+                        <outlet property="navigationHeader" destination="YuN-qD-hwv" id="e3k-2H-IVE"/>
+                        <outlet property="navigationItem" destination="YuN-qD-hwv" id="5nM-Jk-5ZM"/>
+                        <outlet property="networthCell" destination="80S-cC-rRR" id="f8y-DD-0dZ"/>
+                        <outlet property="rankLabel" destination="arJ-AM-4Z4" id="BFS-6U-dXc"/>
+                        <outlet property="sourceCell" destination="LfT-ss-4Cv" id="vTT-z0-dW0"/>
+                        <outlet property="viewName" destination="YuN-qD-hwv" id="1gX-hF-h5F"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WBL-TV-x3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,7 +182,13 @@
         <class className="MillionairesDetailViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MillionairesDetailViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="ageCell" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="countryCell" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="navigationItem" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="networthCell" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="rankLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="sourceCell" candidateClass="UITableViewCell"/>
             </relationships>
         </class>
         <class className="MillionairesMasterViewController" superclassName="UITableViewController">
