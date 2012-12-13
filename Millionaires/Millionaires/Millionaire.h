@@ -12,8 +12,8 @@
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSURL *imageURL;
-@property (nonatomic, strong) NSNumber *rank;
-@property (nonatomic, strong) NSNumber *age;
+@property (nonatomic, strong) NSString *rank;
+@property (nonatomic, strong) NSString *age;
 @property (nonatomic, strong) NSString *country;
 @property (nonatomic, strong) NSString *networth;
 @property (nonatomic, strong) NSString *source;

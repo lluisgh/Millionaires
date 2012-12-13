@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *sourceCell;
 @property (weak, nonatomic) IBOutlet UITableViewCell *ageCell;
 @property (weak, nonatomic) IBOutlet UITableViewCell *countryCell;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @property (strong, nonatomic) Millionaire *millionaire;
 

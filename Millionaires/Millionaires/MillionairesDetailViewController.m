@@ -31,11 +31,15 @@
 {
     // Update the user interface for the detail item.
     if (self.millionaire) {
-        self.rankLabel.text = self.millionaire.rank.stringValue;
+        self.navigationItem.title = self.nameLabel.text = self.millionaire.name;
+        self.rankLabel.text = self.millionaire.rank;
         self.networthCell.textLabel.text = self.millionaire.networth;
         self.sourceCell.textLabel.text = self.millionaire.source;
-        self.ageCell.textLabel.text = self.millionaire.age.stringValue;
-        self.countryCell.textLabel.text = self.millionaire.country;        
+        NSLog(@"%@", self.millionaire.age);
+        self.ageCell.textLabel.text = self.millionaire.age;
+        self.countryCell.textLabel.text = self.millionaire.country;
+        self.imageView.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:self.millionaire.imageURL]];
+
     }
 }
 

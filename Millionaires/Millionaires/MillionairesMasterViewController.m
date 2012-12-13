@@ -76,10 +76,11 @@
     
     millionaire.name = [dictionary objectForKey:@"name"];
     millionaire.age = [dictionary objectForKey:@"age"];
-    millionaire.imageURL = [dictionary objectForKey:@"image"];
+    millionaire.imageURL = [NSURL URLWithString:[dictionary objectForKey:@"image"]];
     millionaire.networth = [dictionary objectForKey:@"networth"];
     millionaire.rank = [dictionary objectForKey:@"rank"];
     millionaire.source = [dictionary objectForKey:@"source"];
+    millionaire.country = [dictionary objectForKey:@"country"];
     
     return millionaire;
 }
@@ -87,7 +88,6 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSLog(@"I AM HERE");
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         Millionaire *millionaire = [self parseToMillionaire: millionaires[indexPath.row]];
         [[segue destinationViewController] setMillionaire: millionaire];
