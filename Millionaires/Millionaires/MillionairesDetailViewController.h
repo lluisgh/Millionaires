@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MillionairesDetailViewController : UIViewController
+@interface MillionairesDetailViewController : UITableViewController
 
 @property (strong, nonatomic) id detailItem;
 
