@@ -13,10 +13,12 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *rankLabel;
-@property (weak, nonatomic) IBOutlet UITableViewCell *networthCell;
-@property (weak, nonatomic) IBOutlet UITableViewCell *sourceCell;
-@property (weak, nonatomic) IBOutlet UITableViewCell *ageCell;
-@property (weak, nonatomic) IBOutlet UITableViewCell *countryCell;
+@property (strong, nonatomic) IBOutlet UILabel *networthCellDetail;
+@property (strong, nonatomic) IBOutlet UILabel *sourceCellDetail;
+@property (strong, nonatomic) IBOutlet UILabel *ageCellDetail;
+@property (strong, nonatomic) IBOutlet UILabel *countryCellDetail;
+
+
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @property (strong, nonatomic) Millionaire *millionaire;

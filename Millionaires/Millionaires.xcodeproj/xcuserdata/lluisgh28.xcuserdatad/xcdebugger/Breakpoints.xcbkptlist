@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Millionaires/MillionairesDetailViewController.m"
-         timestampString = "377129660.01406"
+         timestampString = "377131113.783098"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "36"
-         endingLineNumber = "36"
+         startingLineNumber = "37"
+         endingLineNumber = "37"
          landmarkName = "-configureView"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,24 +47,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Millionaires/MillionairesDetailViewController.m"
-         timestampString = "377129660.01406"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
-         landmarkName = "-configureView"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Millionaires/MillionairesDetailViewController.m"
-         timestampString = "377129660.01406"
+         timestampString = "377131164.342851"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "39"
          endingLineNumber = "39"
+         landmarkName = "-configureView"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Millionaires/MillionairesDetailViewController.m"
+         timestampString = "377131164.342851"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "38"
+         endingLineNumber = "38"
          landmarkName = "-configureView"
          landmarkType = "5">
       </FileBreakpoint>

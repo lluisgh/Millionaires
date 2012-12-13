@@ -33,11 +33,10 @@
     if (self.millionaire) {
         self.navigationItem.title = self.nameLabel.text = self.millionaire.name;
         self.rankLabel.text = self.millionaire.rank;
-        self.networthCell.textLabel.text = self.millionaire.networth;
-        self.sourceCell.textLabel.text = self.millionaire.source;
-        NSLog(@"%@", self.millionaire.age);
-        self.ageCell.textLabel.text = self.millionaire.age;
-        self.countryCell.textLabel.text = self.millionaire.country;
+        self.networthCellDetail.text = self.millionaire.networth;
+        self.sourceCellDetail.text = self.millionaire.source;
+        self.ageCellDetail.text = self.millionaire.age;
+        self.countryCellDetail.text = self.millionaire.country;
         self.imageView.image = [UIImage imageWithData: [NSData dataWithContentsOfURL:self.millionaire.imageURL]];
 
     }
